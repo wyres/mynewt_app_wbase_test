@@ -17,11 +17,11 @@
 # under the License.
 #
 
-project.name: "app_wproto_mynewt_test"
+project.name: "mynewt_app_wbase_test"
 
 project.repositories:
     - apache-mynewt-core
-    - mynewt-wproto-bsp
+    - wyres-gitlab-mynewt-bsp
     - mcuboot
     - lorawan
     - app-generic
@@ -44,10 +44,10 @@ repository.mcuboot:
     user: JuulLabs-OSS
     repo: mcuboot
 
-repository.mynewt-wproto-bsp:
+repository.wyres-gitlab-mynewt-bsp:
     type: git
     vers: 0.0.0
-    url: 'https://github.com/wyres/mynewt-wproto-bsp.git'
+    url: 'https://github.com/wyres/mynewt-wbasev2-bsp.git'
 
 repository.lorawan:
     type: git
