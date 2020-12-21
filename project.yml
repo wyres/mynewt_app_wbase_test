@@ -35,7 +35,7 @@ repository.apache-mynewt-core:
     vers: 0.0.0
     user: brianwyld
     repo: mynewt-core
-#    url: 'https://github.com/apache/mynewt-core.git'
+    url: 'https://github.com/brianwyld/mynewt-core.git'
 
 
 repository.mcuboot:
@@ -52,7 +52,7 @@ repository.wyres-gitlab-mynewt-bsp:
 repository.lorawan:
     type: git
     vers: 0.0.0
-    url: 'https://github.com/ygaklk/LoRaMac-node.git'
+    url: 'https://github.com/wyres/mynewt-lorawan.git'
 
 repository.generic:
     type: git
